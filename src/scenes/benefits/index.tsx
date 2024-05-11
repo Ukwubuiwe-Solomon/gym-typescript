@@ -1,6 +1,6 @@
 import ActionButton from "@/shares/ActionButton";
 import HText from "@/shares/HText";
-import { SelectedPage, BenefitType } from "@/shares/types";
+import { SelectedPage, BenefitsType } from "@/shares/types";
 import {
   HomeModernIcon,
   UserGroupIcon,
@@ -11,7 +11,7 @@ import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.png";
 import Benefit from "./Benefit";
 
 
-const benefits: Array<BenefitType> = [
+const benefits: Array<BenefitsType> = [
   {
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
