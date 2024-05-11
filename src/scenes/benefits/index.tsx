@@ -77,7 +77,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
           viewport={{ once: true, amount: 0.5 }}
           variants={container}
         >
-          {benefits.map((benefit: BenefitType) => (
+          {benefits.map((benefit: BenefitsType) => (
             <Benefit
               key={benefit.title}
               icon={benefit.icon}
